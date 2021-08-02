@@ -20,17 +20,17 @@
           </span>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/Pagina web/index.php">Inicio</a>
+              <a class="nav-link" href="index.php">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pagina web/registrar.php">Registrar</a>
+              <a class="nav-link" href="registrar.php">Registrar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Pagina web/descubre.php">Acerca de &nbsp</a>
+              <a class="nav-link" href="descubre.php">Acerca de &nbsp</a>
             </li>
             <form class="form-inline">
             <li class="nav-item my-lg-0">
-              <a class="btn btn-outline-success" href="/Pagina web/iniciar-sesion.php">Iniciar sesión</a>
+              <a class="btn btn-outline-success" href="iniciar-sesion.php">Iniciar sesión</a>
             </li>
             </form>
         </ul>
