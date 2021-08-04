@@ -27,7 +27,7 @@
         </div>
         <div class="container cover-small mt-5 mb-5 row d-flex justify-content-center">
           <div class="card" style="width: 18rem;">
-            <img src="style/logo1.jpg" class="card-img-top"/>
+            <img src="style/image/logo1.jpg" class="card-img-top"/>
             <div class="card-body">
               <h5 class="card-title">Programa tu pedido</h5>
               <p class="card-text"> 

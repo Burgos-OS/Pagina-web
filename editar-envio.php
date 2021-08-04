@@ -109,33 +109,33 @@ $echo ='<textare><input class="control" type="text" name="<?php echo $key;?>" id
   <section>
     <form method="post" class="row">
       <section>
-      <table class="text-center">
-        <tr>
-          <td>Paquete</td>
-          <td>-----------------<input type="submit" name="submit" value="Submit">-----------------</td>
-        </tr>
-        <?php foreach ($user as $key=>$value):?>
+        <table class="text-center">
           <tr>
-            <td><input class="control" type="text" name="<?php echo $key;?>" id="<?php echo $key;?>" value="<? echo escape($value);?>" placeholder="<?php echo $key;?>"<?php echo ($key=== 'paquete_id' ? 'readonly' : null);?>>
-          </td>
+            <td>Paquete</td>
+            <td>-----------------<input type="submit" name="submit" value="Submit">-----------------</td>
           </tr>
-        <?php endforeach;?>
-      </table>
+          <?php foreach ($user as $key=>$value):?>
+            <tr>
+              <td><input class="control" type="text" name="<?php echo $key;?>" id="<?php echo $key;?>" value="<? echo escape($value);?>" placeholder="<?php echo $key;?>"<?php echo ($key=== 'paquete_id' ? 'readonly' : null);?>>
+            </td>
+            </tr>
+          <?php endforeach;?>
+        </table>
       </section>
       <section>
-      <table class="text-center">
-        <tr>
-          <td>Envio</td>
-        </tr>
-        <?php foreach ($send as $key=>$value):?>
+        <table class="text-center">
           <tr>
-            <td><input class="control" type="text" name="<?php echo $key;?>" id="<?php echo $key;?>" value="<? echo escape($value);?>" placeholder="<?php echo $key;?>"<?php echo ($key=== 'envio_id' ? 'readonly' : null);?>></td>
+            <td>Envio</td>
           </tr>
-        <?php endforeach;?>
-      </table>
+          <?php foreach ($send as $key=>$value):?>
+            <tr>
+              <td><input class="control" type="text" name="<?php echo $key;?>" id="<?php echo $key;?>" value="<? echo escape($value);?>" placeholder="<?php echo $key;?>"<?php echo ($key=== 'envio_id' ? 'readonly' : null);?><?php echo ($key=== 'cuenta' ? 'readonly' : null);?><?php echo ($key=== 'paquete' ? 'readonly' : null);?>></td>
+            </tr>
+          <?php endforeach;?>
+        </table>
       </section>
     </form>
-    </section>
   </section>
+</section>
       
     <?php include "Templates/foot.php" ?>

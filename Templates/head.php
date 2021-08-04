@@ -34,7 +34,7 @@ if (!isset($_SESSION['loggedin'])) {
         </ul>
         <form class="form-inline">
           <li class="nav-item my-lg-0">
-            <a class="btn btn-outline-success" href="http://localhost:8888/Pagina%20web/logout.php">Cerrar sesión</a>
+            <a class="btn btn-outline-success" href="logout.php">Cerrar sesión</a>
           </li>
         </form>
       </nav>
