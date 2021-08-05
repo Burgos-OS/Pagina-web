@@ -11,6 +11,7 @@ if ($stmt = $con->prepare('SELECT id, cliente, password FROM accounts WHERE user
 	$stmt->execute();
 	$stmt->store_result();
 
+  
   if ($stmt->num_rows > 0) {
     $stmt->bind_result($id, $cliente, $password);
     $stmt->fetch();
