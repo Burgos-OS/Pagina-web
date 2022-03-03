@@ -9,7 +9,7 @@ if (!isset($_SESSION['loggedin'])) {
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <title>Paqueteria Burgos</title>
+    <title>Paqueteria</title>
       <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         
@@ -22,7 +22,7 @@ if (!isset($_SESSION['loggedin'])) {
           <img src="style/image/logo.png" alt="logotipo" class="logo">
         </a>
         <span class="navbar-text">
-            &nbsp Paqueteria Burgos
+            &nbsp Paqueteria
         </span>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
