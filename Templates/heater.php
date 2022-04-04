@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
-    <title>Paqueteria Burgos</title>
+    <title>Paqueteria</title>
     <meta charset="utf-8"/>
     <meta http-equiv="x-ua-compatible" content="ie-edge"/>
     <meta name="viewport" content="width=device-width, inicial-scale=1"/>
@@ -17,7 +17,7 @@
           <img src="style/image/logo.png" alt="logotipo" class="logo">
         </a>
         <span class="navbar-text">
-          &nbsp Paqueteria Burgos
+          &nbsp Paqueteria
           </span>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
